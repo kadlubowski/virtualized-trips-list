@@ -3,15 +3,29 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-const { worker } = require("./mocks");
-worker.start();
+const main = async () => {
+  if (window.location.pathname !== "/virtualized-trips-list/") {
+    window.location.pathname = "/virtualized-trips-list/";
+    return;
+  }
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
+  const { worker } = require("./mocks");
+  await worker.start({
+    onUnhandledRequest: "bypass",
+    serviceWorker: {
+      url: "/virtualized-trips-list/mockServiceWorker.js",
+    },
+  });
 
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  const root = ReactDOM.createRoot(
+    document.getElementById("root") as HTMLElement
+  );
+
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+};
+
+main();

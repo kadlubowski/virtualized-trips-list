@@ -8,7 +8,9 @@ You can check [Demo here](https://kadlubowski.github.io/virtualized-trips-list/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+In order to run it locally, you need to have node and npm installed on your computer.
+
+In the project directory, you can run `npm install` to install all needed dependencies. Then you can run:
 
 ### `npm start`
 

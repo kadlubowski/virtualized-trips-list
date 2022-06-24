@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/virtualized-trips-list/static/css/main.393e75fa.css",
-    "main.js": "/virtualized-trips-list/static/js/main.1b5ec03b.js",
+    "main.js": "/virtualized-trips-list/static/js/main.03f1361a.js",
     "index.html": "/virtualized-trips-list/index.html",
     "static/media/empty-star.svg": "/virtualized-trips-list/static/media/empty-star.42e8799b622ad133985572b3ecc64e59.svg",
     "static/media/half-filled-star.svg": "/virtualized-trips-list/static/media/half-filled-star.612a43bc397bc64ec7562476e47119d1.svg",
     "static/media/filled-star.svg": "/virtualized-trips-list/static/media/filled-star.7ad748181de1cadf2e25434581d8af0a.svg",
     "main.393e75fa.css.map": "/virtualized-trips-list/static/css/main.393e75fa.css.map",
-    "main.1b5ec03b.js.map": "/virtualized-trips-list/static/js/main.1b5ec03b.js.map"
+    "main.03f1361a.js.map": "/virtualized-trips-list/static/js/main.03f1361a.js.map"
   },
   "entrypoints": [
     "static/css/main.393e75fa.css",
-    "static/js/main.1b5ec03b.js"
+    "static/js/main.03f1361a.js"
   ]
 }
